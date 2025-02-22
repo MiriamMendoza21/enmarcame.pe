@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enmárcame - Cuadros Personalizados</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Enmárcame</h1>
+    <p>Transformamos tus fotos y recuerdos en arte personalizado</p>
+  </header>
+
+  <section id="catalogo">
+    <h2>Catálogo</h2>
+    <div class="producto">
+      <img src="cuadro1.jpg" alt="Cuadro Spotify">
+      <h3>Cuadro Spotify</h3>
+      <p>Personaliza tu cuadro con tu canción favorita.</p>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+
+  <section id="personalizar">
+    <h2>Personaliza tu cuadro</h2>
+    <form id="formulario">
+      <label for="foto">Sube tu foto:</label>
+      <input type="file" id="foto" accept="image/*" required>
+
+      <label for="texto">Texto personalizado:</label>
+      <input type="text" id="texto" placeholder="Ej: Canción favorita" required>
+
+      <button type="submit">Enviar pedido</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contacto: enmarcame@gmail.com | Teléfono: +51 123 456 789</p>
+  </footer>
+</body>
+</html>
